@@ -1,3 +1,8 @@
+require 'net/http'
+require 'uri'
+require 'json'
+#require './vaddy_libs.rb'
+
 vaddy_user  = ARGV[1] != nil ? ARGV[1] : ENV["VADDY_USER"];
 vaddy_host  = ARGV[2] != nil ? ARGV[2] : ENV["VADDY_HOST"];
 vaddy_token = nil;
