@@ -3,7 +3,9 @@ require 'uri'
 require 'json'
 require './vaddy_libs.rb'
 
-API_SERVER = 'https://api.vaddy.net';
+#API_SERVER = 'https://api.vaddy.net';
+
+puts "vaddy----------";
 
 vaddy_token = ARGV[0] != nil ? ARGV[0] : ENV["VADDY_TOKEN"];
 vaddy_user  = ARGV[1] != nil ? ARGV[1] : ENV["VADDY_USER"];
